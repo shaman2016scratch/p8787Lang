@@ -1,1 +1,22 @@
+let exported = {}
 
+const metadata = {
+  name: 'VM8787_1',
+  version: '0.0.1',
+  developers: [
+    {
+      name: 'polzovatel_8787',
+      links: []
+    }
+  ],
+  license: 'MIT License',
+  description: ''
+}
+
+expoted = {
+  metadata
+}
+
+return {
+  export: exported
+}
