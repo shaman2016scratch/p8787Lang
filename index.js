@@ -14,3 +14,5 @@ async function start() {
     ui: new Function(['params'], RunnerUI)
   }
 }
+
+start()
