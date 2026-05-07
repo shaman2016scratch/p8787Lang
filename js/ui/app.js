@@ -6,6 +6,4 @@ exported = {
   HTMLApp
 }
 
-return {
-  exported
-}
+return exported
