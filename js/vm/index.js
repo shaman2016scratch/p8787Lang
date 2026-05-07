@@ -13,7 +13,7 @@ const metadata = {
   description: ''
 }
 
-expoted = {
+exported = {
   metadata
 }
 
