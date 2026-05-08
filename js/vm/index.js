@@ -12,8 +12,11 @@ async function VM() {
     license: 'MIT License',
     description: ''
   }
-  const compiler = await (await fetch(``)).json()
-  let VMFunctions = {}
+  const compilerPath = `${pathToPage}${scriptsPath}${pathUI}/compiler.js`
+  const compiler = await (await fetch(compilerPath)).json()
+  let VMFunctions = {
+    compiler: new Function(compiler)
+  }
   exported = {
     metadata
   }
